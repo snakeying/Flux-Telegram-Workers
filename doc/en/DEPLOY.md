@@ -56,7 +56,7 @@ Add the following variables:
 - **OPENAI_API_KEY**: The key for the OpenAI-compatible model you want to use.
 - **OPENAI_MODEL**: The name of the OpenAI-compatible model you want to use, such as `gpt-4o`.
 - **TELEGRAM_BOT_TOKEN**: The Bot Token you got earlier.
-- **WHITELISTED_USERS**: User ID whitelist. Users not in the whitelist cannot use the Bot!!! For multiple users, separate them with commas (English commas!!!). Don’t know your user ID? Add @getmyid_bot (https://t.me/getmyid_bot) on Telegram to find out.
+- **WHITELISTED_USERS**: User ID whitelist. Users not in the whitelist cannot use the Bot!!! For multiple users, separate them with commas. Don’t know your user ID? Add @getmyid_bot (https://t.me/getmyid_bot) on Telegram to find out.
 
 <img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_8.png">
 

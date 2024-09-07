@@ -16,8 +16,9 @@ Flux-Telegram-Workers
 
 <details>
 <summary>查看Demo</summary>
-<img style="max-width: 600px;" alt="image" src="doc/demo1.png">
-<img style="max-width: 600px;" alt="image" src="doc/demo2.png">
+<img style="max-width: 600px;" alt="image" src="doc/pics/demo1.png">
+<img style="max-width: 600px;" alt="image" src="doc/pics/demo2.png">
+<img style="max-width: 600px;" alt="image" src="doc/pics/demo3.png">
 </details>
 
 

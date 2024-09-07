@@ -98,7 +98,7 @@ https://api.telegram.org/bot123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ/setWebhook?url=
 
 <img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_13.png">
 
-3. In the editor, delete all existing code and copy-paste the code from [`index.js`](/index.js).
+3. In the editor, delete all existing code and copy-paste the code from [`index.js`](/index_en.js).
 
 4. Once done, click "Deploy."
 

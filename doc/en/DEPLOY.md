@@ -1,6 +1,6 @@
 ### Required Materials:
 
-1. **SiliconFlow** API Key. Register your own account at [**SiliconFlow**](https://siliconflow.cn/). Just go get it yourself, SiliconFlow’s Flux is still free to use for now.
+1. **SiliconFlow** API Key. Register your own account at [**SiliconFlow**](https://siliconflow.cn/). SiliconFlow’s Flux is still free to use for now.
 2. A **Cloudflare** account.
 3. A Telegram account.
 4. A working keyboard (Ctrl+C, Ctrl+V).
@@ -108,4 +108,4 @@ https://api.telegram.org/bot123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ/setWebhook?url=
 
 1. All environment variables must be set properly.
 2. Webhook must be used.
-3. The Bot can join any group and be messaged by anyone, but only whitelisted users can call the Bot, including yourself.
+3. The Bot can join any group and be messaged by anyone, but only whitelisted users can use the Bot, including yourself.

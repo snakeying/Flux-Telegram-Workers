@@ -176,7 +176,7 @@ async function generateImage(prompt, imageSize) {
 // Function to handle /start command
 async function handleStart(chatId) {
   console.log(`Handling /start command for chat ${chatId}`);
-  const welcomeMessage = "Welcome to your creative journey! ✨ Get ready for me to create unique images for you. Want to know how to play? Use /help to find out~";
+  const welcomeMessage = "Welcome to your creative journey! ✨ Get ready for me to craft a one-of-a-kind image just for you. Want to know how it works? Use /help to find out more!";
   await sendMessage(chatId, welcomeMessage);
 }
 
@@ -198,7 +198,7 @@ When generating an image, you can add the following aspect ratio options before 
 
 For example: /img 3:4 a cat sitting on a windowsill
 
-Note: Remember to leave a space between the aspect ratio and the description when using the /img command. If no aspect ratio is specified, I will generate a 1:1 image by default.`;
+Note: Remember to leave a space between the aspect ratio and the description when using the /img command. If no specific ratio is mentioned, I’ll default to generating a 1:1 image.`;
 
   await sendMessage(chatId, helpMessage);
 }
@@ -369,7 +369,7 @@ async function handleRequest(request) {
   if (text.startsWith('/')) {
     if (!isUserWhitelisted) {
       console.log(`User ${userId} is not whitelisted`);
-      await sendMessage(chatId, "You do not have permission to call~");
+      await sendMessage(chatId, "You don't have permission to use this bot~");
       return new Response('OK', { status: 200 });
     }
 

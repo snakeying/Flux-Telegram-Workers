@@ -100,7 +100,7 @@ https://api.telegram.org/bot123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ/setWebhook?url=
 
 <img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_13.png">
 
-3. 进入编辑页面，删除原来所有的代码，复制粘贴[`index.js`](/index.js)的代码。
+3. 进入编辑页面，删除原来所有的代码，复制粘贴[`index.js`](/index_cn.js)的代码。
 
 4. 完事记得点击“部署”。
 

@@ -22,7 +22,7 @@ The simplest and quickest way to deploy your own FLUX Telegram bot. Using Cloudf
 
 
 ## Bot Workflow
-Runs on Cloudflare Workers, calls a specified OpenAI API-compatible model to optimize prompts, and uses Silicon Flow's API to generate images. The optimized prompt is displayed below the generated image.
+Runs on Cloudflare Workers, calls a specified OpenAI API-compatible model to optimize prompts, and uses SiliconFlow's API to generate images. The optimized prompt is displayed below the generated image.
 
 ## Documentation
 

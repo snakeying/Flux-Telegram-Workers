@@ -59,15 +59,17 @@
 - **TELEGRAM_BOT_TOKEN**: 上面获取的 Bot Token。
 - **WHITELISTED_USERS**: 用户 ID 白名单，没有加入白名单的用户将无法调用 Bot！！！多用户的话请使用逗号（英文逗号！！！）隔开。不知道自己的用户 ID？在 Telegram 中添加 @getmyid_bot (https://t.me/getmyid_bot) 获取。
 
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_8.png">
+
 完事了记得点击“部署”。
 
-<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_8.png">
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_9.png">
 
 #### 配置 Telegram Webhook
 
 1. 在 Worker 中点击“设置”--“触发器”--“路由”，在路由中的连接中鼠标右键选择“复制连接地址”。
 
-<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_9.png">
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_10.png">
 
 
 2. 打开浏览器，访问以下 URL（替换 `<YOUR_BOT_TOKEN>` 和 `<YOUR_WORKER_URL>`）：
@@ -86,24 +88,19 @@ https://api.telegram.org/bot123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ/setWebhook?url=
 
 3. 网页打开后你应该看到一个成功的响应，表明 Webhook 已设置。
 
-<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_10.png">
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_11.png">
 
 #### 最后一步：部署代码
 
 1. 点击“Workers 和 Pages”---点击“概述”--选择你刚创建的 Worker。
 
-<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_11.png">
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_12.png">
 
 2. 点击“编辑代码”。
 
-<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_12.png">
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_13.png">
 
-3. 进入编辑页面，删除原来所有的代码，复制粘贴下面的代码。
-
-```
-
-```
-
+3. 进入编辑页面，删除原来所有的代码，复制粘贴[`index.js`](/index.js)的代码。
 
 4. 完事记得点击“部署”。
 

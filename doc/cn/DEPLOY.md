@@ -12,7 +12,7 @@
 
 ### 新建 Telegram 机器人，获得 Bot Token
 
-<img style="max-width: 600px;" alt="image" src="doc/pics/tutorial_1.png">
+<img style="max-width: 600px;" alt="image" src="doc/pics/tutorial/tutorial_1.png">
 
 **获取流程：**
 

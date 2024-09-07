@@ -28,25 +28,25 @@
 
 #### 创建一个 Worker
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_2.png">
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_3.png">
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_4.png">
 
 名字自己改，点击“部署”。
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_5.png">
 
 然后选择“继续处理项目”。
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_6.png">
 
 #### 设置环境变量
 
 点击“设置”---“变量”---“添加变量”。
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_7.png">
 
 添加以下变量：
 
@@ -61,13 +61,13 @@ XXXXXXXXXXXX
 
 完事了记得点击“部署”。
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_8.png">
 
 #### 配置 Telegram Webhook
 
 1. 在 Worker 中点击“设置”--“触发器”--“路由”，在路由中的连接中鼠标右键选择“复制连接地址”。
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_9.png">
 
 
 2. 打开浏览器，访问以下 URL（替换 `<YOUR_BOT_TOKEN>` 和 `<YOUR_WORKER_URL>`）：
@@ -86,17 +86,17 @@ https://api.telegram.org/bot123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ/setWebhook?url=
 
 3. 网页打开后你应该看到一个成功的响应，表明 Webhook 已设置。
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_10.png">
 
 #### 最后一步：部署代码
 
 1. 点击“Workers 和 Pages”---点击“概述”--选择你刚创建的 Worker。
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_11.png">
 
 2. 点击“编辑代码”。
 
-XXXXXXXXXXXX
+<img style="max-width: 600px;" alt="image" src="/doc/pics/tutorial/tutorial_12.png">
 
 3. 进入编辑页面，删除原来所有的代码，复制粘贴下面的代码。
 

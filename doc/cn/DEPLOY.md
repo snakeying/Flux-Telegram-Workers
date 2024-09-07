@@ -83,7 +83,7 @@ https://api.telegram.org/bot<YOUR_BOT_TOKEN>/setWebhook?url=https://<YOUR_WORKER
 **示例：**
 
 ```
-https://api.telegram.org/bot123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ/setWebhook?url=https://abcdefgh.workers.dev
+https://api.telegram.org/bot123456789:ABCdefGhIJKlmNoPQRsTUVwxyZ/setWebhook?url=https://abcdef-ghijk.workers.dev
 ```
 
 3. 网页打开后你应该看到一个成功的响应，表明 Webhook 已设置。
